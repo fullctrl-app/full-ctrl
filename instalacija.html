@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="sr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Full Ctrl – Instalacija</title>
+<link rel="icon" href="logo.png">
+<style>
+  :root { --bg:#1B222C; --card:#232c38; --text:#f1e9dc; --muted:#b9ad9b; --accent:#e0a36c; --warn:#3a2f22; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; line-height:1.6; }
+  main { max-width:720px; margin:0 auto; padding:32px 16px 64px; }
+  header { display:flex; align-items:center; gap:14px; margin-bottom:18px; }
+  header img { width:56px; height:56px; border-radius:14px; }
+  h1 { margin:0; font-size:1.7rem; }
+  .muted { color:var(--muted); }
+  section { background:var(--card); border-radius:16px; padding:18px 20px; margin:14px 0; }
+  h2 { margin:0 0 8px; font-size:1.1rem; color:var(--accent); }
+  .num { display:inline-block; width:28px; height:28px; line-height:28px; text-align:center; border-radius:50%; background:var(--accent); color:#1B222C; font-weight:800; margin-right:8px; }
+  ol, ul { margin:6px 0 0; padding-left:22px; }
+  li { margin:4px 0; }
+  b { color:#fff; }
+  .note { background:var(--warn); border-radius:12px; padding:10px 14px; margin-top:10px; font-size:.95rem; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="logo.png" alt="Full Ctrl">
+    <div>
+      <h1>Instalacija Full Ctrl</h1>
+      <div class="muted">Probna verzija za Android 7 i novije · nazivi menija su na engleskom</div>
+    </div>
+  </header>
+
+  <section>
+    <h2><span class="num">1</span>Otvori APK fajl</h2>
+    <p>Dobio si fajl <b>full-ctrl-….apk</b> (Viber, WhatsApp, mejl ili link). Dodirni ga da se preuzme, pa ga dodirni još jednom da se otvori.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">2</span>Dozvoli instalaciju</h2>
+    <p>Telefon će reći da iz te aplikacije (Viber, Chrome, Files…) nije dozvoljena instalacija.</p>
+    <ol>
+      <li>U poruci dodirni <b>Settings</b>.</li>
+      <li>Uključi <b>Allow from this source</b> (Dozvoli iz ovog izvora).</li>
+      <li>Vrati se nazad i dodirni <b>Install</b>.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2><span class="num">3</span>Samo Samsung: Auto Blocker</h2>
+    <p>Na novijim Samsung telefonima <b>Auto Blocker</b> potpuno zaustavlja instalaciju aplikacija van Play prodavnice. Ako ti instalacija bude blokirana:</p>
+    <ol>
+      <li><b>Settings → Security and privacy → Auto Blocker</b> → isključi.</li>
+      <li>Ponovo otvori APK i instaliraj.</li>
+      <li>Posle instalacije Auto Blocker možeš ponovo da uključiš; Full Ctrl ostaje instaliran i radi.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2><span class="num">4</span>Upozorenje Play Protect-a</h2>
+    <p>Google Play Protect ne poznaje aplikacije koje nisu sa Play prodavnice, pa može da prikaže upozorenje. Tekst se razlikuje od telefona do telefona:</p>
+    <ul>
+      <li>Ako piše da aplikacija nije poznata ili je blokirana: dodirni <b>More details</b>, pa <b>Install anyway</b>.</li>
+      <li>Ako nudi da pošalje aplikaciju na proveru: možeš da izabereš proveru ili da preskočiš; instalacija se nastavlja.</li>
+    </ul>
+    <div class="note">Ne treba da isključuješ Play Protect.</div>
+  </section>
+
+  <section>
+    <h2><span class="num">5</span>Prvo pokretanje</h2>
+    <ul>
+      <li>Kad aplikacija zatraži <b>obaveštenja</b>, dozvoli; bez njih podsetnici ne stižu.</li>
+      <li>Ostale dozvole (kalendar, mikrofon, kontakti) traži kad koristiš tu funkciju; dozvoli samo ono što koristiš.</li>
+      <li>Ako podsetnici kasne: <b>Podešavanja → Obaveštenja → Podsetnici kasne?</b> i prati korake za svoj telefon.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="num">6</span>Sinhronizacija (nije obavezna)</h2>
+    <p>Podešavanja → Sinhronizacija → poveži Google nalog. Google će pitati da li Full Ctrl sme da vidi i menja <b>svoje podatke u tvom Google Drive-u</b>: to je skrivena fascikla samo ove aplikacije. Ostale fajlove na Drive-u aplikacija ne vidi. Autor aplikacije nema pristup tvojim beleškama.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">7</span>Nova verzija</h2>
+    <p>Kad dobiješ novi APK, samo ga instaliraj preko postojećeg (<b>Update</b>). <b>Ne briši</b> staru aplikaciju; beleške i podešavanja ostaju.</p>
+  </section>
+
+  <section>
+    <h2>Probna verzija</h2>
+    <ul>
+      <li>Povremeno napravi rezervnu kopiju: <b>Podešavanja → Izvezi sve u ZIP</b>.</li>
+      <li>Grešku ili predlog pošalji na <a href="mailto:fullctrl.app@gmail.com">fullctrl.app@gmail.com</a>, najbolje sa slikom ekrana i modelom telefona. Verziju vidiš u Podešavanja → O aplikaciji.</li>
+      <li>Ako se aplikacija ne instalira ni posle ovih koraka (poruka „App not installed“), javi model telefona: verovatno je stariji 32-bitni telefon.</li>
+    </ul>
+  </section>
+
+  <p class="muted"><a href="index.html">Full Ctrl</a> · <a href="privacy.html">Politika privatnosti</a></p>
+</main>
+</body>
+</html>
