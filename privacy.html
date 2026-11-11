@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="sr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Full Ctrl – Politika privatnosti</title>
+<link rel="icon" href="logo.png">
+<style>
+  :root { --bg:#1B222C; --card:#232c38; --text:#f1e9dc; --muted:#b9ad9b; --accent:#e0a36c; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; line-height:1.6; }
+  main { max-width:760px; margin:0 auto; padding:40px 16px 64px; }
+  h1 { font-size:1.9rem; margin:0 0 4px; }
+  h2 { color:var(--accent); font-size:1.1rem; margin:26px 0 6px; }
+  p, li { color:var(--text); }
+  .muted { color:var(--muted); }
+  a { color:var(--accent); }
+  hr { border:0; border-top:1px solid #3a4452; margin:40px 0; }
+  ul { padding-left:20px; }
+</style>
+</head>
+<body>
+<main>
+  <p><a href="index.html">← Full Ctrl</a></p>
+
+  <h1>Politika privatnosti</h1>
+  <p class="muted">Aplikacija Full Ctrl (Android) · važi od 12. novembra 2026.</p>
+
+  <h2>Ukratko</h2>
+  <p>Full Ctrl ne prikuplja podatke korisnika. Beleške, podsetnici, zadaci i finansije čuvaju se na telefonu korisnika, a ako korisnik uključi sinhronizaciju, i u njegovom sopstvenom Google Drive-u. Autor aplikacije nema pristup tim podacima. Aplikacija nema reklame, analitiku ni praćenje.</p>
+
+  <h2>Google nalog i Google Drive</h2>
+  <p>Prijava Google nalogom je opciona i služi samo za sinhronizaciju i rezervnu kopiju. Aplikacija traži pristup samo svojoj skrivenoj fascikli u Google Drive-u korisnika (opseg <code>drive.appdata</code>). Ne vidi i ne menja ostale fajlove na Drive-u. Podaci se šalju direktno između telefona i Google Drive-a korisnika, bez servera autora aplikacije. Korišćenje podataka dobijenih preko Google API-ja u skladu je sa <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, uključujući zahteve „Limited Use“. Pristup se može opozvati u podešavanjima Google naloga ili odjavom u aplikaciji.</p>
+
+  <h2>Dozvole na telefonu</h2>
+  <ul>
+    <li><strong>Obaveštenja i alarmi</strong> – za podsetnike u zadato vreme.</li>
+    <li><strong>Kalendar</strong> – prikaz događaja i upis podsetnika u kalendar na telefonu, samo ako korisnik to uključi.</li>
+    <li><strong>Kontakti</strong> – izbor gostiju za pozivnice; kontakti se ne šalju nikome.</li>
+    <li><strong>SMS</strong> – slanje pozivnica gostima, samo na zahtev korisnika.</li>
+    <li><strong>Mikrofon</strong> – glasovne poruke, diktiranje i snimanje sastanaka, samo dok korisnik snima.</li>
+    <li><strong>Otisak prsta / zaključavanje ekrana</strong> – otključavanje zaključanih delova aplikacije; provera se obavlja na telefonu.</li>
+  </ul>
+
+  <h2>Prepoznavanje govora</h2>
+  <p>Diktiranje uživo koristi uslugu prepoznavanja govora koja je podešena na telefonu (obično Google), pod uslovima te usluge. Prepis snimljenih sastanaka može da se radi potpuno na telefonu; za to aplikacija jednom preuzima model za prepoznavanje govora sa javnog servera (Hugging Face).</p>
+
+  <h2>Kursna lista</h2>
+  <p>Za unos u stranoj valuti aplikacija preuzima srednji kurs Narodne banke Srbije sa javnog servisa kurs.resenje.org. Šalje se samo zahtev za kursnu listu, bez podataka korisnika.</p>
+
+  <h2>Deljenje</h2>
+  <p>Kada korisnik izabere „Podeli“ ili „Pošalji u AI“, sadržaj se predaje aplikaciji koju je korisnik izabrao (npr. Viber, mejl, Claude, ChatGPT) i dalje važe uslovi te aplikacije.</p>
+
+  <h2>Brisanje podataka</h2>
+  <p>Korisnik može da obriše podatke u aplikaciji, da obriše skrivene podatke aplikacije u Google Drive-u (Drive → Settings → Manage apps → Full Ctrl → Delete hidden app data) ili da deinstalira aplikaciju.</p>
+
+  <h2>Deca</h2>
+  <p>Aplikacija nije namenjena deci mlađoj od 13 godina.</p>
+
+  <h2>Kontakt</h2>
+  <p><a href="mailto:fullctrl.app@gmail.com">fullctrl.app@gmail.com</a></p>
+
+  <hr>
+
+  <h1>Privacy Policy</h1>
+  <p class="muted">Full Ctrl app (Android) · effective November 12, 2026.</p>
+
+  <h2>Summary</h2>
+  <p>Full Ctrl does not collect user data. Notes, reminders, tasks and finances are stored on the user's phone and, if the user turns on sync, in the user's own Google Drive. The developer has no access to this data. The app has no ads, analytics or tracking.</p>
+
+  <h2>Google account and Google Drive</h2>
+  <p>Signing in with Google is optional and used only for sync and backup. The app requests access only to its own hidden app-data folder in the user's Google Drive (<code>drive.appdata</code> scope). It cannot see or change any other Drive files. Data moves directly between the phone and the user's Google Drive, with no developer server in between. Use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. Access can be revoked in the Google account settings or by signing out in the app.</p>
+
+  <h2>Device permissions</h2>
+  <ul>
+    <li><strong>Notifications and alarms</strong> – reminders at the set time.</li>
+    <li><strong>Calendar</strong> – showing events and writing reminders to the phone's calendar, only if the user enables it.</li>
+    <li><strong>Contacts</strong> – picking guests for invitations; contacts are not sent anywhere.</li>
+    <li><strong>SMS</strong> – sending invitations to guests, only when the user asks.</li>
+    <li><strong>Microphone</strong> – voice messages, dictation and meeting recording, only while the user records.</li>
+    <li><strong>Fingerprint / screen lock</strong> – unlocking locked parts of the app; verification happens on the phone.</li>
+  </ul>
+
+  <h2>Speech recognition</h2>
+  <p>Live dictation uses the speech recognition service configured on the phone (usually Google), under that service's terms. Meeting transcription can run entirely on the phone; for this the app downloads a speech model once from a public server (Hugging Face).</p>
+
+  <h2>Exchange rates</h2>
+  <p>For foreign-currency entries the app downloads the National Bank of Serbia middle rate from the public service kurs.resenje.org. Only a request for the rate list is sent, with no user data.</p>
+
+  <h2>Sharing</h2>
+  <p>When the user chooses “Share” or “Send to AI”, content is handed to the app the user picks (e.g. Viber, email, Claude, ChatGPT), and that app's terms apply.</p>
+
+  <h2>Deleting data</h2>
+  <p>The user can delete data in the app, delete the app's hidden data in Google Drive (Drive → Settings → Manage apps → Full Ctrl → Delete hidden app data), or uninstall the app.</p>
+
+  <h2>Children</h2>
+  <p>The app is not intended for children under 13.</p>
+
+  <h2>Contact</h2>
+  <p><a href="mailto:fullctrl.app@gmail.com">fullctrl.app@gmail.com</a></p>
+</main>
+</body>
+</html>
